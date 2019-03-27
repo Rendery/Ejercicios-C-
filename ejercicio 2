@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+	int a, b, c , volumen , precio, Dinero_total;
+	cout << "ingrese el valor de A - Largo"<< endl;
+	cin >> a;
+	cout << "ingrese el valor de B - Ancho" << endl;
+	cin >> b;
+	cout << "ingrese el valor de C - Alto" << endl;
+	cin >> c;
+
+	volumen = a*b*c;
+	Dinero_total = volumen * precio;
+
+	cout << "El dinero total a pagar por cada de metro cubico es " << Dinero_total << endl;
+
+	_getch();
+}
