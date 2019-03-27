@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+	int a, b, c , Area;
+	cout << "ingrese el valor de A - base mayor"<< endl;
+	cin >> a;
+	cout << "ingrese el valor de B - base menor" << endl;
+	cin >> b;
+	cout << "ingrese el valor de C - altura" << endl;
+	cin >> c;
+
+	Area = (a + b) / 2 * c;
+
+	cout << " El Area total del trapecio es: "  << Area << endl;
+
+	_getch();
+}
