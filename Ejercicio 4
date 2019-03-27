@@ -1,0 +1,26 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+	int Apu, se, va, de, los, simson;
+	cout << "ingrese el numero de acciones del primer integrante: "<< endl;
+	cin >> Apu;
+	cout << "ingrese el numero de acciones del segundo integrante: " << endl;
+	cin >> se;
+	cout << "ingrese el numero de acciones del tercer integrante: " << endl;
+	cin >> va;
+	cout << "ingrese ganancia del año: " << endl;
+	cin >> de;
+
+	simson = Apu + se + va;
+	
+	cout << " El integrante 1 ganó " << Apu*de / simson << endl;
+	cout << " El integrante 2 ganó " << se*de / simson << endl;
+	cout << " El integrante 3 ganó " << va*de / simson << endl;
+
+	_getch();
+}
