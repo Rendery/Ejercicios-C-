@@ -1,0 +1,30 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+	int micha, even, efra, total, por_even, por_micha, por_efran, Dinero_total;
+	cout << "Aporte de Michael : " << endl;
+	cin >> micha;
+	cout << "Aporte de Even : " << endl;
+	cin >> even;
+	cout << "Aporte de Efrain : " << endl;
+	cin >> efra;
+
+	total = micha + even + efra;
+	//to  100
+	//micha x      micha*100/total
+
+	por_micha = micha * 100 / total;
+	por_even = even * 100 / total;
+	por_efran = efra * 100 / total;
+
+	cout << "Michael aportó el : " << por_micha << endl;
+	cout << "Even aportó el : " << por_even << endl;
+	cout << "Efrain aportó el : " << por_efran << endl;
+
+	_getch();
+}
